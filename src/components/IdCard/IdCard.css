@@ -1,0 +1,22 @@
+.IdCardContainer {
+    display: flex;
+    border: 1px solid black;
+    width: 400px;
+    margin: 40px;
+}
+
+.IdCardPic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1em;
+}
+
+.IdCardInfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5em;
+    justify-content: center;
+    text-align: left;
+    line-height: .5em;
+}

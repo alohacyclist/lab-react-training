@@ -1,0 +1,9 @@
+.greetingsContainer {
+    margin: 40px;
+    width: 400px;
+    border: 1px solid black;
+}
+
+.greetings {
+    margin: 1em;
+}

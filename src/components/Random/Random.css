@@ -1,0 +1,9 @@
+.randomNumberContainer {
+    margin: 40px;
+    width: 400px;
+    border: 1px solid black;
+}
+
+.randomNumber {
+    margin: .5em;
+}
