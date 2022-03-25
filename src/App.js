@@ -10,6 +10,10 @@ import { BoxColor } from './components/BoxColor/BoxColor.js';
 import { CreditCard } from './components/CreditCard/CreditCard.js';
 import { Rating } from './components/Rating/Rating.js';
 import { DriverCard } from './components/DriverCard/DriverCard.js';
+import { Dice } from './components/Dice/Dice.js';
+import { Carousel } from './components/Carousel/Carousel.js';
+import { NumbersTable } from './components/NumbersTable/NumbersTable.js';
+
 
 //ITERATION 1
 const userInfo = 
@@ -139,6 +143,34 @@ function App() {
           }}
         />
       </div>
+
+      <div>
+      
+      {/* ITERATION 10 */}
+      <h1>ITERATION 10 // Dice</h1>
+      <Dice />
+      
+      </div>
+      
+    <div>
+      {/* ITERATION 11 */}
+      <h1>ITERATION 11 // Carousel</h1>
+      <Carousel images={[
+        'https://randomuser.me/api/portraits/women/1.jpg',
+        'https://randomuser.me/api/portraits/men/1.jpg',
+        'https://randomuser.me/api/portraits/women/2.jpg',
+        'https://randomuser.me/api/portraits/men/2.jpg'
+      ]} />
+    </div>
+
+    <div>
+      {/* ITERATION 12 */}
+      <h1>ITERATION 12 // NumbersTable</h1>
+      <NumbersTable limit={12} />
+    </div>
+
+    
+    
 
     </div>
   );
